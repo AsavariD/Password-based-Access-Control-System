@@ -9,8 +9,8 @@ Ensure you have the following tools installed:
 - Proteus Design Suite: A simulation software used to model and test the circuit design
 
 ## Setup
-1. Create a new project in MPLAB and copy the code from main.c into the source file of the project.
+1. Create a new project in MPLAB IDE and copy the code from main.c into the source file of the project.
 2. Build the project to generate a `.hex` file, which is needed for simulation in Proteus.
-3. According to the `Proteus Simluation.pdsprj`, create the schematic of the project and ensure the connections are correctly made.
+3. Download the `Proteus Simluation.pdsprj` file.
 4. Double-click on the PIC18F4580 in the schematic. In the Program File field, browse to the location where the MPLAB project saved the `.hex` file and select it.
-5. After setting up all the connections, run the simulation in Proteus.
+5. Run the simulation in Proteus.
